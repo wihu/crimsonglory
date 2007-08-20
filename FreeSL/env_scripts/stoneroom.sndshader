@@ -1,0 +1,22 @@
+// Name: Stone room listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_STONEROOM
+	environment_size = 11.6
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -300
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -711
+	reflections_delay = 0.012
+	reverb = 83
+	reverb_delay = 0.017
+	decay_time = 2.31
+	decayHF_ratio = 0.64
+}
+

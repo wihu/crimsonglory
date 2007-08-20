@@ -1,0 +1,22 @@
+// Name: Cave listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_CAVE
+	environment_size = 14.6
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = 0
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -602
+	reflections_delay = 0.015
+	reverb = -302
+	reverb_delay = 0.022
+	decay_time = 2.91
+	decayHF_ratio = 1.3
+}
+

@@ -1,0 +1,80 @@
+    global biplane_modelname = "Models/sopwith.ms3d";   
+    global biplane_texturename = "Textures/x.jpg"; 
+    
+	global biplane_modelname_body = "Models/sopwith/body.ms3d";  
+	global biplane_modelname_wing = "Models/sopwith/wing.ms3d";  
+	global biplane_modelname_tail = "Models/sopwith/tail.ms3d";   
+	
+	global biplane_wing_position_x = 0.4f; 
+	global biplane_wing_position_y = -5.4f; 
+	global biplane_wing_position_z = 0.0f; 	
+	global biplane_wing2_position_x = 0.1f; 
+	global biplane_wing2_position_y = 0.2f; 
+	global biplane_wing2_position_z = 0.0f; 
+	global biplane_tail_position_x = 17.9f; 
+	global biplane_tail_position_y = -2.7f; 
+	global biplane_tail_position_z = 0.0f; 	
+    
+    local scale = 0.1f;
+  	global biplane_modelscale_x = scale;
+  	global biplane_modelscale_y = -scale;
+  	global biplane_modelscale_z = scale;  	  	
+
+   	global biplane_mass = 10.0f;	
+  	global biplane_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+  	
+  	global biplane_lineardamping = 0.015;
+  	global biplane_angulardamping = 0.35f;
+  	
+	global biplane_enginepower = 300.0f;	
+	global biplane_wingsliftpower = 4.0f;	
+	global biplane_wingsresistfactor = 7.5f;
+	global biplane_steerpower = 4.2f;
+	global biplane_stabilizepower = 0.02f;	
+	global biplane_planeresistfactor = 5.03f;		
+	
+	global biplane_brake = 1.0f;	  
+	global biplane_rotationrate = 5.0f;	
+	
+  	global biplane_mountpos_x = -0.2f * biplane_modelscale_x;
+  	global biplane_mountpos_y = 2.8f * biplane_modelscale_y;
+  	global biplane_mountpos_z = 0.0f * biplane_modelscale_z;  	
+
+	local mass = biplane_mass / 15;
+	local suspensionlength = 0.009;
+	local pos_x = -0.4 * biplane_modelscale_x;	
+	local pos_y = -4.3 * biplane_modelscale_y;
+	local pos_z = 3.0 * biplane_modelscale_z;
+	
+    global biplane_wheel1_modelname = "Models/jeep_wheel.ms3d";	
+    global biplane_wheel1_texturename = "Textures/jeep1.jpg";
+	global biplane_wheel1_mass = mass; 
+	global biplane_wheel1_position_x = pos_x; 
+	global biplane_wheel1_position_y = pos_y; 
+	global biplane_wheel1_position_z = pos_z; 		
+	global biplane_wheel1_suspensionshock = 1.0; 	
+	global biplane_wheel1_suspensionspring = 1.0; 	
+	global biplane_wheel1_suspensionlength = suspensionlength;
+	
+    global biplane_wheel2_modelname = "Models/jeep_wheel.ms3d";	
+    global biplane_wheel2_texturename = "Textures/jeep1.jpg";
+	global biplane_wheel2_mass = mass; 
+	global biplane_wheel2_position_x = pos_x; 
+	global biplane_wheel2_position_y = pos_y; 
+	global biplane_wheel2_position_z = -pos_z; 		
+	global biplane_wheel2_suspensionshock = 1.0; 	
+	global biplane_wheel2_suspensionspring = 1.0; 	
+	global biplane_wheel2_suspensionlength = suspensionlength;	
+	
+    global biplane_wheel3_modelname = "Models/plane_rearwheel.ms3d";
+    global biplane_wheel3_texturename = "Textures/jeep1.jpg";	
+	global biplane_wheel3_mass = mass / 3; 
+	global biplane_wheel3_position_x = 15.9 * biplane_modelscale_x; 
+	global biplane_wheel3_position_y = -0.1 * biplane_modelscale_y; 
+	global biplane_wheel3_position_z = 0.0 * biplane_modelscale_z; 		
+	global biplane_wheel3_suspensionshock = 1.0; 	
+	global biplane_wheel3_suspensionspring = 1.0; 	
+	global biplane_wheel3_suspensionlength = 0.003;		
+	
+	    
+print(`Config loaded from 'Scripts/biplane.gm'`);     

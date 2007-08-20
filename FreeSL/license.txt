@@ -1,0 +1,14 @@
+FreeSL (Free Sound Library) License
+===================================
+* FreeSL uses the following libraries: OpenAL, Ogg-Vorbis and Creative EAX 2.0
+* FreeSL has been created by Lukas Heise (http://hem.bredband.net/grahei/, axodoss@hotmail.com).
+* FreeSL was originally created for openFrag (an open source FPS game).
+* FreeSL  is free. You do not have to pay me (Lukas Heise) any money for using it in your project
+  no mater if the project is free or not.
+* You may use FreeSL as you want in your projects. You can change any part of the source code.
+* If you change the source code and redistribute FreeSL then you have to let people know
+  what changes you made to it.
+* FreeSL is provided "AS IS" you are using it at your own risk. It may have bugs, it may be slow,
+  it may not work at all.
+* You do not have to give me (Lukas Heise) credit for using this library if you do not want to.
+* You may not sell FreeSL itself for money or other profits.

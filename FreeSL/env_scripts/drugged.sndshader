@@ -1,0 +1,22 @@
+// Name: Drugged listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_DRUGGED
+	environment_size = 1.9
+	environment_diffusion = 0.5
+	room = -1000
+	roomHF = 0
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -115
+	reflections_delay = 0.002
+	reverb = 985
+	reverb_delay = 0.03
+	decay_time = 8.39
+	decayHF_ratio = 1.39
+}
+

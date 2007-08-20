@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Crimson", "Crimson.vcproj", "{510A6332-70B2-4AB5-BF1A-D0B5352D4FA4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameDLL", "Game\GameDLL.vcproj", "{F13BFB29-22A3-494A-B324-B7BAD251DC49}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{510A6332-70B2-4AB5-BF1A-D0B5352D4FA4}.Debug.ActiveCfg = Debug|Win32
+		{510A6332-70B2-4AB5-BF1A-D0B5352D4FA4}.Debug.Build.0 = Debug|Win32
+		{510A6332-70B2-4AB5-BF1A-D0B5352D4FA4}.Release.ActiveCfg = Release|Win32
+		{510A6332-70B2-4AB5-BF1A-D0B5352D4FA4}.Release.Build.0 = Release|Win32
+		{F13BFB29-22A3-494A-B324-B7BAD251DC49}.Debug.ActiveCfg = Debug|Win32
+		{F13BFB29-22A3-494A-B324-B7BAD251DC49}.Debug.Build.0 = Debug|Win32
+		{F13BFB29-22A3-494A-B324-B7BAD251DC49}.Release.ActiveCfg = Release|Win32
+		{F13BFB29-22A3-494A-B324-B7BAD251DC49}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

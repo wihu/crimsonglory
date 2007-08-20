@@ -1,0 +1,106 @@
+newWorld( "Scripts/template_world.gm" );
+
+//addActor( classname, configfile, add to respawn, camerafollow, posx, posy, debugname )
+
+//addActor( "soldier", "Scripts/soldier.gm", 0, 0, 3, -5, "Non Player" );
+//addActor( "hydroplane", "Scripts/hydroplane.gm", 0, 0, 39, 0, "My Hydroplane" );
+//addActor( "flag", "Scripts/flag.gm", 0, 0, -11, -17, "Flag" );
+//addActor( "scriptweapon", "Scripts/rifle.gm", 0, 0, 6, -27, "My Weapon" );
+
+
+/// map
+
+// params that are float (like 1.0f) must always be float!
+
+		//\param color: Color of the fog (r, g, b)
+		//\param linearFog: Set this to true for linear fog, otherwise exponential fog is applied.
+		//\param start: Only used in linear fog mode (linearFog=1). Specifies where fog starts.
+		//\param end: Only used in linear fog mode (linearFog=1). Specifies where fog ends.
+		//\param density: Only used in expotential fog mode (linearFog=0). Must be a value between 0 and 1.
+		//\param pixelFog: Set this to 0 for vertex fog, and true if you want pixel fog.
+		//\param rangeFog: Set this to 1 to enable range-based vertex fog. The distance
+		//from the viewer is used to compute the fog, not the z-coordinate. This is
+		//better, but slower. This is only available with D3D and vertex fog. 
+mapSetFog( 74, 144, 204,
+		   1, 2150.0f, 2400.0f, 0.5f, 1, 0 ); 
+
+		//\param color: Color of the fog (r, g, b)
+mapSetAmbientLight( 155, 60, 60 );
+
+		// texture name
+mapSetSky( "Textures/sky3.jpg" );
+
+		// position (float x, y, z)
+		// size (float x, y, z)
+		// type 0 - water;
+mapAddZone( 11.0f, 500.0f, 0.0f,
+			1000.0f, 1000.0f, 5000.0f,
+			0 );
+
+		// mesh filename
+		// position (float x, y, z)
+		// scale (float x, y, z)
+mapAddMesh( "Maps/test.dmf", 0.0f, 0.0f, 0.0f, 
+							 0.1f, -0.1f, -0.1f );
+
+		// texture name
+		// use color key (0/1)							 
+		// position (float x, y, z)
+		// rotation degrees (float x, y, z)
+		// scale (float x, y, z)
+		// Irrlicht material type (addcolor 12, default 13 )
+mapAddSprite( "Textures/light.png", 1,  -36.0f, 4.1f, 0.0f, 
+										0.0f, 0.0f, 0.0f,
+										0.5f, -0.3f, 0.0f,
+										12 );
+										
+												// texture name
+		// use color key (0/1)							 
+		// position (float x, y, z)
+		// rotation degrees (float x, y, z)
+		// scale (float x, y, z)
+		// Irrlicht material type (addcolor 12, default 13 )
+		// image offset (int x, y)
+		// image size (int width, height)
+		// frame size (int width, height)		
+		// animation speed
+mapAddAnimSprite( "Textures/sonwalk.bmp", 1, -16.0f, -14.1f, 0.0f, 
+											 0.0f, 0.0f, 0.0f,
+										 	 0.03f, -0.03f, 0.0f,
+										     13, 
+										     0, 0,
+										     40*8, 40,
+										     40, 40,
+										     100 );
+						
+		// upper back left corner of cloud box (float x, y, z)
+		// lower front right corner of cloud box (float x, y, z)
+		// cloud type 0-4
+	
+local cloudY = -80.0f; 		
+for( i = -4; i < 4; i=i+1 ) 
+{	
+	mapAddCloud( i*99.0f, cloudY, -90.0f,
+				 i*99.0f + 200.0f, cloudY - 170.0f, 120.0f, 
+				 (i+4) % 4	);
+				
+}									
+
+
+		// texture name
+		// position (float x, y, z)
+		// lock x position (0/1)
+		// color (float r, g, b)
+mapAddSun( "Textures/flares.jpg", 80.0f, cloudY*6.05f, -3000.0f,
+								  1,
+								  1.0f, 1.0f, 1.0f );
+								  
+					
+		// object name								  			  
+		// position (float x, y, z)
+		// team number
+mapAddRespawn( "hydroplane" , 39.0f, 0.0f, 0.0f,
+							  0 );												  
+
+print(`Script loaded from template_world.gm`);
+

@@ -1,0 +1,357 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Crimson Glory Concept Document</title>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+  <style type="text/css"> a:link {color: #A31313;}
+a:active {color: #A31313;}
+a:visited {color: #A31010;}
+a:hover {color: #B38383;}
+  </style>
+</head>
+
+
+<body style="background-color: rgb(41, 34, 34);">
+
+<center><br>
+
+<br>
+
+<br>
+
+<img src="porco2000.jpg"><br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<div id="title" style="border: 5px outset white; background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; font-size: 11px; overflow: auto; width: 450px; font-family: Verdana,Geneva,sans-serif; height: 105px;" align="center"><br>
+
+<u><b>Crimson Glory</b></u> <br>
+
+<br>
+
+<b>by</b> <br>
+
+<br>
+
+<b>Michal Marcinkowski</b> </div>
+
+<br>
+
+<div id="concept" style="border: 5px outset white; background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; font-size: 11px; overflow: auto; width: 450px; font-family: Verdana,Geneva,sans-serif; height: 600px;" align="left"><br>
+
+<center><u><b>Game Design</b></u></center>
+
+<br>
+
+<br>
+
+<center><b>Game Mechanics</b></center>
+
+<br>
+
+<br>
+
+<b>Core Game Play:</b> <br>
+
+Crimson Glory is a multiplayer game at its essence. It revolves around
+the idea of two opposing teams, the Air Force and the Air Pirates which
+struggle to dominate over the Mediterranean to aquire prosperous
+resources. There is no good or bad, both teams have the same
+motivation, to win by either killing all enemies or conquering the map.
+<br>
+
+<br>
+
+<b>Classes:</b> <br>
+
+Characters: <br>
+
+* infantry - basic class; can use and operate guns and ground
+machinery; can hold multiple weapons and equipment <br>
+
+* pilot - holds only secondary weapon like a revolver; pilots are more
+casual (for example wear jackets instead of uniforms) <br>
+
+<br>
+
+Hydroplanes:<br>
+
+- scout -&nbsp;fast little plane, used mainly for capturing the
+enemies flag;
+1 seat<br>
+
+- fighter - standard fighting plane; 1 seat <br>
+
+- bomber - heavy plane that can transport bombs or people; has place
+for people to sit inside; 2 seats for pilot and machinegunner<br>
+
+<br>
+
+<br>
+
+<b>Game Play Elements:</b> <br>
+
+Two gameplay modes:<br>
+
+- dogfight, like teammatch in other games <br>
+
+- capture the flag <br>
+
+- conquest - fight for map control points <br>
+
+<br>
+
+<br>
+
+<center><b>Art</b></center>
+
+<br>
+
+<br>
+
+<b>Technical Details:</b> <br>
+
+Default resolution for the game is 1024 x 768. This can be changed but
+the GUI elements need to be created with this resolution in mind. Also
+all except background images should fit in the minimal resolution 640 x
+480. <br>
+
+- 3D models can be stored in any popular format (.obj, .3ds, .lwo,
+.ms3d) <br>
+
+- textures can be stored as .bmp, .jpg, .png <br>
+
+- 2D sprites are stored in .bmp files; all animations are stored in one
+file; the color key is pixel (0,0) <br>
+
+- 2D sprites for effects like fire use add-color technique while
+rendering, so the more dark on the image the more transparent in the
+game <br>
+
+- characters use Cal3D format for all (mesh, material, bones and other)
+<br>
+
+<br>
+
+<b>Overall Goals:</b> <br>
+
+This is an alternative version of history that happened after World War
+I which ended with a different scenario than what happened in our
+history. Who won that war is not important. Because of the
+characteristic terrain of the Mediterranean and the specific time (the
+rise of the flight-age) hydroplane fighter planes are used mostly in
+combat. All machinery and weapons in this game remind us of ours but
+their look evolved slightly differently. Technology is not advanced but
+the materials from World War I provide excellent resources for weapon
+construction for both teams. The Air Force is funded from the army so
+their machinery is slightly more polished and formal than the Pirates
+which are more individual.<br>
+
+The 3D models are low-poly. Because of this and the camera angle
+placement texture quality is very important (per-pixel detail). 2D
+graphics for particle effects use animated sprites and/or modern 3D
+engine effects for image manipulation. <br>
+
+<br>
+
+<center><b>2D Art</b></center>
+
+<br>
+
+<b>Marketing:</b> <br>
+
+TODO:<br>
+
+<br>
+
+<b>GUI:</b> <br>
+
+* Scoreboard and team selection graphics - a flag or logo for both
+teams. <br>
+
+* Painted image presenting a scene from the game - used as background
+for menus, console or loading screens. <br>
+
+<br>
+
+<b>Terrain:</b> <br>
+
+TODO: <br>
+
+<b>Special Effects:</b> <br>
+
+TODO:<br>
+
+<br>
+
+<b>Other:</b> <br>
+
+* Propeller animation: (1 file, frame size 32x32)<br>
+
+- slow motion<br>
+
+- fast motion<br>
+
+<br>
+
+<center><b>3D Art</b></center>
+
+<br>
+
+<b>Terrain:</b> <br>
+
+TODO:<br>
+
+<br>
+
+<b>Game Play Elements:</b> <br>
+
+<br>
+
+* Character<br>
+
+- <a href="http://cal3d.sourceforge.net/modeling/tutorial.html">tutorial
+for Cal3D</a>, the part about exporting materials is worth
+reading <br>
+
+- bone animations are independent, for example animation of holding a
+weapon uses only bones involving arms, head, spine etc.; animation of
+running stores only bones for legs <br>
+
+- the rendering of Cal3D is quite slow, so the less polygons the better
+<br>
+
+- the character will be rarely seen from close, so the highest detail
+for bones is feet, palms, no fingers. <br>
+
+- both teams use the same model, only textures change or accessory (you
+can attach new models in Cal3D, like hats) <br>
+
+<br>
+
+<i>[animations need consultation because I don't know yet how
+they fully work]</i><br>
+
+- lower body/leg animations: stand; run; run backwards; crouch; crouch
+run; jump up; jump forward; falling <br>
+
+- upper body animations: hold rifle; hold revolver; hold club/machette;
+fire rifle; fire revolver; use club/machette; reload; rifle; reload
+revolver <br>
+
+- overall animations: sit in plane/car; stand and use Anti-Aircraft
+gun; shot death animation; fall on ground death; explosion death <br>
+
+<br>
+
+* Hydroplane<br>
+
+- planes use different models and textures for both teams<br>
+
+- the hydroplane is dynamically destructible in the game and therefore
+needs some optimizations from the modelling part:<br>
+
+- it must have low vertice count &nbsp;(a test model with 3500
+vertices works too slow)<br>
+
+- each distinct part of the plane (tail, wing, engine) must use
+different material (and texture)<br>
+
+- the placement on the axis is important, point [0,0] is the center of
+mass of the physics model (check the reference model below to see how
+it looks)<br>
+
+<br>
+
+<br>
+
+* Weapons<br>
+
+- standard army rifle; standard pirate rifle (attached bayonnete)<br>
+
+- revolver <br>
+
+- pirate club; army machette <br>
+
+- plane machineguns (are used on planes but can be also picked up and
+used by soldier; they are the same for both teams): <br>
+
+scout plane little gun; fighter plane gun; bomber mounted gun <br>
+
+- plane bomb <br>
+
+<br>
+
+<br>
+
+<center><b>Reference:</b></center>
+
+<br>
+
+<br>
+
+<a href="reference.zip">Images archive download (5.13 MB)</a>
+<br>
+<a href="alpha_screens.zip">Screens from game (926 KB)</a><br>
+
+<br>
+
+Test models used currently in the game (reference for axis-alignment)
+<br>
+
+<br>
+
+<a href="ts-1bv2.zip">Half-Life test model (5.13 MB)</a>
+<br>
+
+<a href="hydroplane.zip">Hydroplane test model (4 KB)</a>
+<br>
+
+<a href="ak.zip">Weapon test model (15 KB)</a>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<center><b>Milestones:</b></center>
+
+<br>
+
+<br>
+
+<span style="font-weight: bold;">I </span><br>
+
+* 1 textured fighter hydroplane<br>
+
+* 1 textured, boned character model without animations<br>
+
+* 1 textured rifle <br>
+
+* propeller animation<br>
+
+<br>
+
+<br>
+
+<br>
+
+</div>
+
+</center>
+
+</body>
+</html>

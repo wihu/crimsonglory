@@ -1,0 +1,3 @@
+Crimson Glory is open source. Anyone can modify it or take portions of it. The code however cannot be sold or used commercially.
+If you plan to use it commercially please contact the author.
+The art assets are not public domain. They can be released only within the context of Michal Marcinkowski's Crimson Glory.

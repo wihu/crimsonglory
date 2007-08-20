@@ -1,0 +1,58 @@
+print("--- Executing fileopen.gm ---");
+
+fp = system.File();
+fo = system.File();
+save_filename = "Scripts/pilot.xmf";
+global change_filename = "models/pilot/pilot.xmf";
+
+if(fp.Open(change_filename))
+{ 
+  print("the file opened "+change_filename); 
+  
+   changeString = "<TEXCOORD>";
+   changeString2 = "0";
+
+   if(fo.Open(save_filename, 0))
+   {
+	  print("saving file... "+save_filename);
+   }
+
+      line = fp.ReadLine();
+      while(line)
+      {
+        pos = line.Find(changeString);  
+        
+        outline = line;
+        if(pos > -1)
+        {
+	        print(outline);	 
+	        pos2 = line.ReverseFind(changeString2); 
+	       //pos2 = -1;
+        	if(pos2 > -1)
+        	{	
+	        	//temps = line.Left(pos2);
+	        	//temps2 = line.Right(line.Length() - pos2 -1);    
+	        	//outline = temps + " -" + temps2;
+	        	
+	        	temps = line;
+	        	temps = temps.ReplaceCharsInSet(' ', "-");
+	        	//outline = line.Left(pos2-2) + temps;
+	        	outline = temps;
+	        	//print(outline);	        
+        	}
+        }
+        
+        fo.WriteString(outline+"\n");
+        line = fp.ReadLine();
+      }  
+        
+
+  
+  fo.Close();
+  fp.Close();
+ 
+} 
+else 
+{ 
+  print("the file doesn't exist"); 
+}

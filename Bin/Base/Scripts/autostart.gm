@@ -1,0 +1,19 @@
+// autostart on game launch
+
+global startintro = 0;
+
+if (startintro == 0)
+{
+	startServer();
+	system.DoFile( "Scripts/world.gm" );
+	print("Wating to join...");
+	sleep(0.5);
+	connect("Localhost", sv_port);
+}
+else
+{	
+	//newMusic( "Music/bummer.ogg", 0, 0, 0, 0, 1.0f );
+	system.DoFile( "Scripts/world_intro.gm" );
+}
+
+print(`Config loaded from autostart.gm`);

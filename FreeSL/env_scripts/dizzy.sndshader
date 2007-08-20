@@ -1,0 +1,22 @@
+// Name: Dizzy listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_DIZZY
+	environment_size = 1.8
+	environment_diffusion = 0.6
+	room = -1000
+	roomHF = -400
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1713
+	reflections_delay = 0.02
+	reverb = -613
+	reverb_delay = 0.03
+	decay_time = 17.23
+	decayHF_ratio = 0.56
+}
+

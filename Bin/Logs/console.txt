@@ -1,0 +1,87 @@
+Loaded texture: Fonts/console.bmp
+Loaded texture: Fonts/gui.bmp
+ Precaching files...
+Could not open file of texture: Maps\system.bmp
+Could not open file of texture: Maps\Floor10.jpg
+Could not open file of texture: Maps\Nature01.jpg
+Could not open file of texture: Maps\system.bmp
+Could not open file of texture: Maps\test6_LightMap0.bmp
+Could not open file of texture: Maps\Floor10.jpg
+Could not open file of texture: Maps\test6_LightMap0.bmp
+Could not open file of texture: Maps\Nature01.jpg
+Could not open file of texture: Maps\test6_LightMap0.bmp
+Loaded mesh: Maps/test6.dmf
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Could not open file of texture: FIGHTERP.BMP
+Loaded mesh: Models/Fighter/fighter-hero.ms3d
+Loaded texture: Models/Fighter/fighterhero.png
+Could not open file of texture: 
+Loaded mesh: Models/fightergun.ms3d
+Loaded texture: Models/pilot/./pilot_skin_pirate.tga
+Loaded texture: Models/pilot/pilot_skin_airforce.tga
+Could not open file of texture: 
+Loaded mesh: Models/rifle_bayonet.ms3d
+Loaded texture: Sprites/bigsplash.png
+Loaded texture: Sprites/bubble.png
+Loaded texture: Sprites/dust.png
+Loaded texture: Sprites/exhaust.png
+Loaded texture: Sprites/fireball.bmp
+Loaded texture: Sprites/gunsplash.png
+Loaded texture: Sprites/propeller.png
+Loaded texture: Sprites/smallhit.png
+Loaded texture: Sprites/sprycol.png
+Loaded texture: Sprites/wcircle.png
+Loaded texture: Textures/Clouds/cloud1.jpg
+Loaded texture: Textures/Clouds/cloud2.jpg
+Loaded texture: Textures/Clouds/cloud3.jpg
+Loaded texture: Textures/Clouds/cloud4.jpg
+Loaded texture: Textures/Clouds/cloud5.jpg
+Loaded texture: Textures/Clouds/cloud6.jpg
+Loaded texture: Textures/Clouds/cloud7.jpg
+Loaded texture: Textures/Clouds/cloud8.jpg
+Loaded texture: Textures/Floor10.jpg
+Loaded texture: Textures/Nature01.jpg
+Loaded texture: Textures/flares.jpg
+Loaded texture: Textures/natural_water.jpg
+Loaded texture: Textures/sky2.tga
+Loaded texture: Textures/stars2.bmp
+Loaded texture: Textures/sun.tga
+Loaded texture: Textures/system.bmp
+Could not open file of texture: Textures/test6_LightMap0.bmp
+Loaded texture: Textures/wake.png
+Loaded texture: Textures/water.jpg
+ ...Precaching files.
+Server activated.
+Creating world from file 'Scripts/world.gm'
+Config loaded from 'Scripts/dogfight.gm' 
+Loaded game rules from Scripts/rules_dogfight.gm 3
+Could not open file of texture: ../Base/Textures/test6_LightMap0.bmp
+Could not open file of texture: ../Base/Textures/test6_LightMap0.bmp
+Could not open file of texture: ../Base/Textures/test6_LightMap0.bmp
+Needed 2ms to create OctTree SceneNode.(21 nodes, 376 polys)
+Script loaded from world.gm 
+Wating to join... 
+Config loaded from 'Scripts/rifle.gm' 
+Loaded texture: Textures/rifle.tga
+Config loaded from autostart.gm 
+Player Unnamed player joined the game
+Recieved actor: scriptweapon 
+Actor already created
+Config loaded from 'Scripts/soldier_pilot.gm' 
+Config loaded from 'Scripts/hydroplane.gm' 
+Could not open file of texture: 
+Loaded mesh: Models/wake.ms3d
+Config loaded from 'Scripts/planegun.gm' 
+Loaded texture: Textures/fightergun.tga
+LoadAttachment Scripts/scriptweapon_planegun.gm
+Recieved actor: hydroplane 
+Actor already created
+Recieved actor: scriptweapon 
+Actor already created
+Recieved actor: soldier 
+Actor already created

@@ -1,0 +1,43 @@
+// main GUI entry point
+// GUI items with id < 10000 are processed by script all else are processed by program
+
+//GUIClear();
+
+GUIAddMenu(0, 10);
+	GUIAddMenuItem(10, 20, 1, "Game");
+		GUIAddSubmenu(10, 21, 0, "Start Game");
+		GUIAddSubmenu(10, 22, 0, "Join Game");
+		GUIAddSubmenu(10, 23, 0, "Disconnect");
+		GUIAddSubmenu(10, 24, 0, "Loopback");
+		GUIAddSubmenu(10, 25, 0, "Editor");
+		GUIAddSubmenu(10, 29, 0, "Exit");
+	GUIAddMenuItem(10, 30, 1, "Options");
+		GUIAddSubmenu(10, 31, 1, "Settings");
+		GUIAddSubmenu(10, 32, 1, "Player");
+		GUIAddSubmenu(10, 33, 1, "Music1");
+		GUIAddSubmenu(10, 34, 1, "Music2");
+	GUIAddMenuItem(10, 40, 1, "Help");
+		GUIAddSubmenu(10, 41, 2, "Credits");
+		GUIAddSubmenu(10, 42, 2, "Keys");		
+
+
+//GUIAddButton(10, 110, 100, 200, 0, 500, "Test button!");
+
+// help keys
+//global GUI_clickedId = 42;
+//system.DoFile( "Scripts/guievent.gm" );
+
+//startServer();
+//system.DoFile( "Scripts/world.gm" );
+//print("Wating to join...");
+//sleep(0.1);
+//connect("Localhost", sv_port);
+//startEditor();
+//addBot();
+//addBot();
+
+
+//listEntities();
+//listPlayers();
+
+print(`Config loaded from '`+guimainfile+`'`);

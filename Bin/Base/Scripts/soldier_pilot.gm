@@ -1,0 +1,35 @@
+    global soldier_modelconfig = "Models/pilot/pilot.cfg";   
+	
+	global soldier_mass = 75.0f; 
+	global soldier_buoyancyfactor = 0.99f; // less more buoyancy
+	
+	global soldier_scalecollision_x = 0.5f; // z
+	global soldier_scalecollision_y = 1.0f; // x
+	global soldier_scalecollision_z = 1.8f; // y
+	
+	// forces
+	global soldier_runforce = 1900.0f; 
+	global soldier_jumpforce = -4100.0f; 
+	
+	global soldier_maxspeed = 10.5f;
+	
+  	global soldier_lineardamping = 0.6;	
+	
+	// animations
+	global soldier_rotationrate = 15.0f;
+	global soldier_animation_speedfactor = 0.94f;
+	global soldier_animation_bone2mouse = 3;
+	global soldier_animation_bonehead = 10;
+	global soldier_animation_boneLfoot = 18;
+	global soldier_animation_boneRfoot = 23;
+	
+	global soldier_anim_idle = 0;
+	global soldier_anim_run = 1;
+	global soldier_anim_holdweapon = 2;
+	global soldier_anim_crouch = 3;
+	global soldier_anim_boltpull = 4;	
+	
+	global soldier_weapon_hand = 9;
+	global soldier_item_place = 2;	
+	    
+print(`Config loaded from 'Scripts/soldier_pilot.gm'`);     

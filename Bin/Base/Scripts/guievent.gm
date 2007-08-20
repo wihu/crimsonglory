@@ -1,0 +1,112 @@
+// script run when GUI event happens
+// app returns:
+// GUI_clickedId, id of element clicked
+// GUI_selected_file, filename from file selection box with id = GUI_clickedId
+
+
+if (g_debug == 1)
+{
+	print(`GUI_clickedId = `+GUI_clickedId);
+}
+
+// Menu::Game->Start new game
+if (GUI_clickedId == 21)
+{
+	system.DoFile( "Scripts/world.gm" );
+	startServer();
+//	disconnect();
+//	connect("Localhost", sv_port);
+}
+
+// Menu::Game->Join Game
+if (GUI_clickedId == 22)
+{
+	system.DoFile( "Scripts/world.gm" );
+	connect("Localhost", sv_port);
+}
+
+// Menu::Game->Disconnect
+if (GUI_clickedId == 23)
+{
+	disconnect();
+}
+
+// Menu::Game->SLoopback
+if (GUI_clickedId == 24)
+{	
+	disconnect();
+	print("Disconnecting client...");
+	sleep(0.5);
+	startServer();
+	system.DoFile( "Scripts/world.gm" );	
+	startServer();
+    print("Wating to join...");
+    sleep(0.5);	
+	connect("Localhost", sv_port);	
+}
+
+// Menu::Game->Editor
+if (GUI_clickedId == 25)
+{
+	startEditor();
+	disconnect();
+}
+
+// Menu::Game->Exit
+if (GUI_clickedId == 29)
+{
+	quit();
+}
+
+// Menu::Options->Player
+if (GUI_clickedId == 32)
+{
+	GUIAddWindow(300, 200, 500, 450, 0, 100, 0, "Lula");
+	GUIAddStaticText(30, 75, 100, 95, 100, 0, "Name:");
+	GUIAddEditBox(30, 100, 170, 120, 100, 251, 1, "Machiavelli");
+}
+
+// Menu::Options->Music1
+if (GUI_clickedId == 33)
+{
+	newMusic( "Music/crimson_march.ogg", 1, 224016, 5216000, 400, 0.7f );
+}
+
+// Menu::Options->Music2
+if (GUI_clickedId == 34)
+{
+	newMusic( "Music/skyward_v2.ogg", 1, 635136, 8224560, 400, 0.7f );
+}
+
+// Menu::Help->Credits
+if (GUI_clickedId == 41)
+{
+	GUIAddMessageBox("Credits", "Crimson Engine by Michal Marcinkowski (c) 2005-07; Music by Trompkins; Graphics by SHEPEIRO and Snowfly; Contact: michal.marcinkowski@gmail.com");
+}
+
+// Menu::Help->Keys
+if (GUI_clickedId == 42)
+{
+	GUIAddMessageBox("Default keys", "[A]-[D] move left-right; [W] move up/plane tail up; [S] move down/plane tail down; [F] mount plane/pick up weapon; [G] dismount/drop weapon [SHIFT] plane thrust; [SPACE] flip plane; [LEFT MOUSE] fire; [RIGHT MOUSE] jetpack; ");
+}
+
+if (GUI_clickedId == 500)
+{
+	system.DoFile(`Scripts/guitest1.gm`);
+}
+
+if (GUI_clickedId == 510)
+{
+	system.DoFile(guimainfile);
+	// save
+	print("alalalal");
+	//i = GUIGetCheckBox(650);
+	print("alalalal");
+}
+
+// Editor file selection box
+if (GUI_clickedId == 300)
+{
+	//system.DoFile("Scripts/editorevent.gm");
+	mapSetActorConfig( GUI_selected_file );
+}

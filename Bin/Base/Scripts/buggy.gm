@@ -1,0 +1,57 @@
+    global buggy_modelname = "Models/jeep.ms3d"; 
+    global buggy_wheel_modelname = "Models/jeep_wheel.ms3d";   
+    global buggy_texturename = "Textures/jeep1.jpg";   
+    global buggy_wheel_texturename = "Textures/jeep1.jpg";
+    
+  	global buggy_modelscale_x = 0.1f;
+  	global buggy_modelscale_y = -0.1f;
+  	global buggy_modelscale_z = 0.1f;  	  	
+
+   	global buggy_mass = 32.0f;	
+  	global buggy_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+  	
+	global buggy_torque = 100.0f;	
+	global buggy_brake = 1.0f;	  
+	global buggy_rotationrate = 5.0f;	
+	
+  	global buggy_mountpos_x = 0.45f * buggy_modelscale_x;
+  	global buggy_mountpos_y = 5.5f * buggy_modelscale_y;
+  	global buggy_mountpos_z = 0.0f * buggy_modelscale_z;  	  	
+
+	local mass = 2.0;
+	local suspensionlength = 0.001;
+	local pos_y = 1.4 * buggy_modelscale_y;
+	
+	global buggy_wheel1_mass = mass; 
+	global buggy_wheel1_position_x = 5.2 * buggy_modelscale_x; 
+	global buggy_wheel1_position_y = pos_y; 
+	global buggy_wheel1_position_z = -3.7 * buggy_modelscale_z; 		
+	global buggy_wheel1_suspensionshock = 1.0; 	
+	global buggy_wheel1_suspensionspring = 1.0; 	
+	global buggy_wheel1_suspensionlength = suspensionlength;
+	
+	global buggy_wheel2_mass = mass; 
+	global buggy_wheel2_position_x = 5.2 * buggy_modelscale_x; 
+	global buggy_wheel2_position_y = pos_y; 
+	global buggy_wheel2_position_z = 3.7 * buggy_modelscale_z; 		
+	global buggy_wheel2_suspensionshock = 1.0; 	
+	global buggy_wheel2_suspensionspring = 1.0; 	
+	global buggy_wheel2_suspensionlength = suspensionlength;	
+	
+	global buggy_wheel3_mass = mass; 
+	global buggy_wheel3_position_x = -5.4 * buggy_modelscale_x; 
+	global buggy_wheel3_position_y = pos_y; 
+	global buggy_wheel3_position_z = -3.7 * buggy_modelscale_z; 		
+	global buggy_wheel3_suspensionshock = 1.0; 	
+	global buggy_wheel3_suspensionspring = 1.0; 	
+	global buggy_wheel3_suspensionlength = suspensionlength;		
+	
+	global buggy_wheel4_mass = mass; 
+	global buggy_wheel4_position_x = -5.4 * buggy_modelscale_x; 
+	global buggy_wheel4_position_y = pos_y; 
+	global buggy_wheel4_position_z = 3.7 * buggy_modelscale_z; 		
+	global buggy_wheel4_suspensionshock = 1.0; 	
+	global buggy_wheel4_suspensionspring = 1.0; 	
+	global buggy_wheel4_suspensionlength = suspensionlength;		
+	    
+print(`Config loaded from 'Scripts/buggy.gm'`);     

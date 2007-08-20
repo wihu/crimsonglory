@@ -1,0 +1,22 @@
+// Name: Hallway listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_HALLWAY
+	environment_size = 1.8
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -300
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1219
+	reflections_delay = 0.007
+	reverb = 441
+	reverb_delay = 0.011
+	decay_time = 1.49
+	decayHF_ratio = 0.59
+}
+

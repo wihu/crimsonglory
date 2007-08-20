@@ -1,0 +1,25 @@
+// config file for game rules
+// rules name: DOGFIGHT    
+// rules description: for testing
+    
+    global rules_PlayerClassActor   = table(  "soldier" ,
+  											  "hydroplane" ,
+     										  "soldier" );	
+     									
+    global rules_PlayerClassNames   = table(  "pilot" ,
+    										  "plane" ,
+    										  "handyman" );	
+    									
+    global rules_PlayerClassScripts = table(  "Scripts/soldier_pilot.gm" ,
+    										  "Scripts/hydroplane.gm" ,
+    										  "Scripts/soldier_pilot.gm" );	
+    										  
+    global rules_DefaultClass = 0;
+
+    global rules_WaveRespawn = 0;  
+    global rules_PointsOnDeath = -1;  
+    global rules_PointsOnKill = 10;  
+    global rules_PointsOnSelfkill = -5;  
+    global rules_DamageModifier = 0.01f;      
+  	
+print(`Config loaded from 'Scripts/dogfight.gm'`);     

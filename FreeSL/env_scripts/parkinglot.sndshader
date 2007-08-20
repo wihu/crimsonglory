@@ -1,0 +1,22 @@
+// Name: Parkinglot listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_PARKINGLOT
+	environment_size = 8.3
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = 0
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1363
+	reflections_delay = 0.008
+	reverb = -1153
+	reverb_delay = 0.012
+	decay_time = 1.65
+	decayHF_ratio = 1.5
+}
+

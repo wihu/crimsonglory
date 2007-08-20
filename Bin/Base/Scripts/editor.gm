@@ -1,0 +1,14 @@
+// editor config
+ 
+    global editor_ContextMenu   = table(  "Select Actor Config" ,
+  										  "Delete Actor" ,
+     									  "Delete Respawn" ,
+     									  "-" ,
+     									  "Add Sprite" ,
+     									  "Add Animated Sprite"
+     									  );	 
+     									  
+	global editor_pickRadius = 2.0f;     									  
+							  
+     									  
+print(`Config loaded from editor.gm`);

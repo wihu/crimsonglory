@@ -1,0 +1,18 @@
+global newbot = table(); // Cause we don't have CreateBot() 
+newbot.weapon = table 
+  ( 
+    rpg = table 
+    ( 
+      name = "RPG", 
+      bias = 1.0, 
+      aimerror = 0 
+    ), 
+    mp5 = table 
+    ( 
+      name = "MP5", 
+      bias = 1.0, 
+      aimerror = 0 
+    ) 
+  ); 
+
+print("newbot.weapon.rpg.name", newbot.weapon.rpg.name);

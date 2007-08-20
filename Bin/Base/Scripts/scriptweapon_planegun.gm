@@ -1,0 +1,36 @@
+    global scriptweapon_modelname = "Models/fightergun.ms3d";   
+    global scriptweapon_texturename = "Textures/fightergun.tga"; 
+    global scriptweapon_firesoundname = "Sounds/m60_fire2.wav";     
+	
+    local scale = 0.05f;
+  	global scriptweapon_modelscale_x = scale;
+  	global scriptweapon_modelscale_y = scale;
+  	global scriptweapon_modelscale_z = scale;  	  	
+
+   	global scriptweapon_mass = 15.0f;	
+  	global scriptweapon_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+   	global scriptweapon_power = 25.0f;	  	
+  	
+   	global scriptweapon_fireinterval = 6;
+   	global scriptweapon_autofire = 1;
+   	global scriptweapon_boltaction = 0;
+   	
+  	global scriptweapon_muzzlepos_x = 24.8f;
+  	global scriptweapon_muzzlepos_y = 0.0f;
+  	global scriptweapon_muzzlepos_z = -3.4f; 
+  	
+  	global scriptweapon_bullet_alivetime = 30;   	
+  	global scriptweapon_bullet_mass = 45.9f;   	
+  	global scriptweapon_bullet_radius = 0.2f;   	
+  	global scriptweapon_bullet_velocity = 10.0f;   	
+  	global scriptweapon_bullet_texturename = "Textures/fireball.bmp";   	
+  	global scriptweapon_bullet_colorstart_a = 0; 	
+  	global scriptweapon_bullet_colorstart_r = 255;   	
+  	global scriptweapon_bullet_colorstart_g = 155;   	
+  	global scriptweapon_bullet_colorstart_b = 155;   
+  	global scriptweapon_bullet_colorend_a = 0;	
+  	global scriptweapon_bullet_colorend_r = 255;   	
+  	global scriptweapon_bullet_colorend_g = 255;   	
+  	global scriptweapon_bullet_colorend_b = 255;  
+  	
+print(`Config loaded from 'Scripts/planegun.gm'`);     

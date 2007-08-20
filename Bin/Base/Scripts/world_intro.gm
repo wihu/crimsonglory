@@ -1,0 +1,13 @@
+newWorld( "Scripts/world_intro.gm" );
+
+mapAddMesh( "Maps/intro.dmf", 0.0f, 0.0f, 0.0f, 
+							 1.0f, -1.0f, -1.0f );	
+							 
+addSkyDome( "Textures/evul.jpg" );
+							 
+addActor( "hydroplane", "Scripts/hydroplane.gm", 0, 0, 0, -37, "Hydroplane" );						  					  
+
+setCamera( -19.0f, -35.0f, 23.0f, 1.6f, -34.5f, 0.0f );
+
+print(`Script loaded from world_intro.gm`);
+

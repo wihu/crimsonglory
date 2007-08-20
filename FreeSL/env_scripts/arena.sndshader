@@ -1,0 +1,22 @@
+// Name: Arena listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_ARENA
+	environment_size = 36.2
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -698
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1166
+	reflections_delay = 0.02
+	reverb = 16
+	reverb_delay = 0.03
+	decay_time = 7.24
+	decayHF_ratio = 0.33
+}
+

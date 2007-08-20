@@ -1,0 +1,63 @@
+    global hydroplane_modelname = "Models/Fighter/fighter-pirate.ms3d";   
+    global hydroplane_texturename = "Models/Fighter/fighterpirate.bmp"; 
+
+    global hydroplane_propeller_sprite = "Sprites/propeller.png";   
+	global hydroplane_propeller_sprite_size = 128;
+  	global hydroplane_propellerscale = 0.5f;
+	global hydroplane_propeller_position_x = -52.0f; 
+	global hydroplane_propeller_position_y = 22.0f; 
+	global hydroplane_propeller_position_z = 0.0f; 	
+	    
+	global hydroplane_modelname_body = "Models/sopwith/body.ms3d";  
+	global hydroplane_modelname_wing = "Models/sopwith/wing.ms3d";  
+	global hydroplane_modelname_tail = "Models/sopwith/tail.ms3d";   
+	
+	global hydroplane_weaponscript = "Scripts/scriptweapon_planegun.gm";  
+
+	global hydroplane_wing_position_x = 0.4f; 
+	global hydroplane_wing_position_y = -5.4f; 
+	global hydroplane_wing_position_z = 0.0f; 	
+	global hydroplane_wing2_position_x = 0.1f; 
+	global hydroplane_wing2_position_y = 0.2f; 
+	global hydroplane_wing2_position_z = 0.0f; 
+	global hydroplane_tail_position_x = 17.9f; 
+	global hydroplane_tail_position_y = -2.7f; 
+	global hydroplane_tail_position_z = 0.0f; 	
+    
+    local scale = 0.04f;    
+  	global hydroplane_modelscale_x = scale;
+  	global hydroplane_modelscale_y = -scale;
+  	global hydroplane_modelscale_z = -scale;  	
+
+   	global hydroplane_mass = 499.0f;	
+  	global hydroplane_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+   	global hydroplane_proptimeout = 15000;	
+   	global hydroplane_maxpropsplits = 2;	
+   	global hydroplane_splitfactor = 17.0f;	   	   	  	
+  	
+  	global hydroplane_lineardamping = 0.33;
+  	global hydroplane_angulardamping = 0.95f;
+  	
+	global hydroplane_enginepower = 19000.0f;//20000.0f;
+	global hydroplane_wingsliftpower = 287.1f;	
+	global hydroplane_wingsresistfactor = 170.5f;
+	global hydroplane_steerpower = 330.2f;
+	global hydroplane_stabilizepower = 0.01f;	
+	
+	global hydroplane_planeresistfactor = 7.5f;		
+	
+	global hydroplane_brake = 1.0f;	  
+	global hydroplane_rotationrate = 5.0f;	
+	
+  	global hydroplane_mountpos_x = 21.0f * hydroplane_modelscale_x;
+  	global hydroplane_mountpos_y = 29.0f * hydroplane_modelscale_y;
+  	global hydroplane_mountpos_z = 0.0f * hydroplane_modelscale_z;  
+  	
+  	global hydroplane_gunmountpos_x = -30.0f * hydroplane_modelscale_x;
+  	global hydroplane_gunmountpos_y = 45.0f * hydroplane_modelscale_y;
+  	global hydroplane_gunmountpos_z = 0.0f * hydroplane_modelscale_z; 
+  	global hydroplane_gunmountrot_x = 90;
+  	global hydroplane_gunmountrot_y = 0;
+  	global hydroplane_gunmountrot_z = 0;
+  	
+print(`Config loaded from 'Scripts/hydroplane.gm'`);     

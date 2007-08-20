@@ -1,0 +1,22 @@
+// Name: Padded cell listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_PADDEDCELL
+	environment_size = 1.4
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -6000
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1204
+	reflections_delay = 0.002
+	reverb = 207
+	reverb_delay = 0.02
+	decay_time = 0.17
+	decayHF_ratio = 0.1
+}
+

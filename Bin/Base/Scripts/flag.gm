@@ -1,0 +1,14 @@
+    global flag_modelname = "Models/ak.3ds";   
+    global flag_texturename = "Textures/default.jpg"; 
+	
+    local scale = 0.23f;
+  	global flag_modelscale_x = scale;
+  	global flag_modelscale_y = 3*scale;
+  	global flag_modelscale_z = scale;  	  	
+
+   	global flag_mass = 15.0f;	
+  	global flag_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+  	
+  	global flag_team = 0;	
+  	
+print(`Config loaded from 'Scripts/flag.gm'`);     
