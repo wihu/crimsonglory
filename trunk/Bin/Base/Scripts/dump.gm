@@ -1,0 +1,9 @@
+print("--- Executing dump.h ---");
+
+count = tableCount(globals()).String();
+
+foreach (key and value in globals()) 
+{ 
+      print(key.String());
+      sleep(0.1);
+} 

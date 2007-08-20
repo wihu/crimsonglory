@@ -1,0 +1,135 @@
+DEVELOPMENT LOG FILE FOR: CRIMSON ENGINE AND CRIMSON GLORY
+OWNER: MICHAL MARCINKOWSKI
+
+----------------------------------LEGEND----------------------------------
+- todo
+! idea
+* bug
+/ done
+// done and tested
+? don't know what it is
+[] comment after done or fixed
+\ to be considered in the future
+\\ abandoned idea
+** crash report
+() comment
+
+--------------------------------------------------------------------
+
+----------------------------------LOG----------------------------------
+\\ - change the entities create delete dependent on WORLD.
+// - make common classes for vehicles, chars etc. so no code repeats if possible
+/ - make Man class derived from CCharacter [is CSoldier now]
+// - make entities spawnable from one universal script command
+// - setmaterial nocollisionId for attached entities
+// * character with no control crashes
+// - fix and make the attachment system really work (for magazines -> weapons -> people -> machines)
+// ! use DeleD for making terrain components for maps
+// - script loads everything into complete map
+// * flickering
+// * character loses model after reaching bound of circa 149 points
+- culling for characters and effects
+- make verlet integrator timestep sensitive
+* newton nodes have no bad vertex color dispaying (they show up after dmf mesh is loaded)
+// * weapons seem to drift in Z direction
+// * isHoldingWeapon doesn't work
+// * weapon sometimes disappears when picked up (sth to do with transformMatrix)
+// - make base class for effects
+* position of character is affected by speed of plane
+* bInWater is confused on create, so there are imaginary splashes in water
+// - make hydroplane derived from more generic CMachine
+// - make weapon derived from generic pickable thing class
+// - make factory for effects
+\\ - make sceneries factory (clouds etc.)
+** convex hull creator crashes on some cut meshes
+/ - collision for both hydroplanes when hit
+** random crash on (!Device.run()), after shot, after dropping and picking flag and weapon
+// * hydroplane does wrong flip sometimes and messes up controls
+// * weapon shoots through level collision
+- optimization: Newton collision is called a lot in one frame, optimize PhysicsCollision()
+* weapon shoots through hydroplane at some points
+// - precaching of textures and sounds [done by libraries]
+\\ - sound loading manager
+// - character and machine damage system (bZombie = true in Think() when health drops)
+// - character crouching (convexhullmodifier)
+- move critical algorithm procedures to executable
+\ - function to check if key was pressed in last tick (key released)
+// - change this to be loaded instead of const if (fSpeed > (fMass / 17.0f) )
+// - buoyancy doesn't work for character (Newton bug)
+// - manage lights in map
+\ - texture filename should be passed for effect
+// - home, end keys in console
+- hydroplane should have a little engine startup time
+// - add system for sound variations
+/ * you can shoot yourself if shooting up on ground
+// - make tick velocity constant
+\\ * sound is play for tick before volume clamped
+// - store last hit owner for points record when character dies
+// * soldier gets stuck in horizontal wall if running at it and turning
+// * items fall through level (Newton collision bug, make sizable hull modifer when it works with buoyancy) [using continous collision]
+* Irrlicht in fullscreen works slow with Konnekt
+- try to make WorldTask in game exe
+- working wave respawn
+// - working respawn points
+// - create rules and make respawn time variables
+// - console scrolling (page up, page down)
+- localplayers with different ports
+// - the player actor should be created in rules class
+// - make players stats in resizable array instead of struct
+* autoconfig settings are set to default after crash or when localplayer joins?
+// - hydroplane LoadAttachment from config, how in network?
+- optimize: factory string name is sent through network
+// - make character loaded from cache not from disk
+- actor cloning
+// - make respawn change respawn point if collision is there
+- soldier context menu scripted
+- server should send all actors used at start to client, then the client clones them
+// - in APP.useFile() change "\" to "/", also make somekind of callback for client when file not found?
+// * many soldiers can mount one plane, do seat occupation check
+// * camera has problems after reaching some map distance [CCamera::Think() getLengthSQ() < 10000000000.0f might cause more problems]
+// - make rules responsible for modifying damage
+* bot crashed with plane at high speed and everything got slow
+// - loadattachment must be somewhere else than in Unserialize
+// - add all map scripts to DeleD
+// - addzone is not working in DeleD
+// - think of a way to distinguish server role and client on loopback connection (NET.rakServer->IsActive())
+// - make rules attachments in respawn points
+- chat addressing (to team, to all, ...)
+// - file checking on join - check file extension, only media files go in [needs precaching for server to work correctly]
+// * there is a compiler crash when disconnecting a player
+- make network testing easy
+/ * file verifier works randomly (a specific file is either good or bad)
+// - chat name strings created in a client and server function
+* chat console gets broken if first string is broken into pieces more than size of console
+* delete controls crashes
+- Optimize: Irrlicht arrays are slow, use static ones if large and used often
+// * crash on loopback or join in compiler [I left a commented zone after debugging, stupid me]
+* firing sometimes slows down game when fired to infinity
+// * dropping weapon mid-air destroys plane
+- soldier class texture change
+- make global camera target distance for all LOD calculations
+* propeller gets dislocated on higher speeds
+- particle affecting fields (wind)
+- Optimize: effects rendering out of camera
+\\* if sound is off FPS gets synched (freeSL takes 25% CPU)
+// - convert to FreeSL 2
+// - add sound system option
+- mesh slicing precached or other optimization
+// - make plane simulation as accurate to make air tricks
+- make world size limited to map not constant
+- music loops on first song
+//- add angle of attack and tail force (will not be adding angle of attack)
+//- fix CAnimSprite ghost flash on load [absolutetransformupdate)
+* billboard rendering flipped vertically
+- less far value for camera under water (so far clouds are not visible)
+//- find a way to determine if plane is whole in water and make wake dissapear
+** "device.run()" crash while shooting with rifle at character; throwing planegun around rifle
+* plane sometimes dissapears when hit hard with other plane or bullet
+* games slows down on intensive collisions
+\- change to 2d joint
+- some way of limiting number of particles appearing
+- shadows
+** crash on loopback on test6 map
+- support unicode
+
+--------------------------------------------------------------------

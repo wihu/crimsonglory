@@ -1,0 +1,38 @@
+    // file names must be exact case or else file verification won't work
+    
+    global scriptweapon_modelname = "Models/rifle_bayonet.ms3d";   
+    global scriptweapon_texturename = "Textures/rifle.tga"; 
+    global scriptweapon_firesoundname = "Sounds/Sniper?.wav";       
+	
+    local scale = 0.05f;
+  	global scriptweapon_modelscale_x = scale;
+  	global scriptweapon_modelscale_y = scale;
+  	global scriptweapon_modelscale_z = scale;  	  	
+
+   	global scriptweapon_mass = 15.0f;	
+  	global scriptweapon_bodytype = 2; // 0 - BOX, 1 - SPHERE, 2 - CONVEX HULL
+   	global scriptweapon_power = 20.0f;	
+  	
+   	global scriptweapon_fireinterval = 14;
+   	global scriptweapon_autofire = 1;
+   	global scriptweapon_boltaction = 0;
+   	
+  	global scriptweapon_muzzlepos_x = 21.2f;
+  	global scriptweapon_muzzlepos_y = 0.0f;
+  	global scriptweapon_muzzlepos_z = -2.1f; 
+  	
+  	global scriptweapon_bullet_alivetime = 15;   	
+  	global scriptweapon_bullet_mass = 0.09f;   	
+  	global scriptweapon_bullet_radius = 0.1f;   	
+  	global scriptweapon_bullet_velocity = 400.0f;   	
+  	global scriptweapon_bullet_texturename = "Textures/fireball.bmp";   	
+  	global scriptweapon_bullet_colorstart_a = 0; 	
+  	global scriptweapon_bullet_colorstart_r = 255;   	
+  	global scriptweapon_bullet_colorstart_g = 155;   	
+  	global scriptweapon_bullet_colorstart_b = 155;   
+  	global scriptweapon_bullet_colorend_a = 0;	
+  	global scriptweapon_bullet_colorend_r = 255;   	
+  	global scriptweapon_bullet_colorend_g = 255;   	
+  	global scriptweapon_bullet_colorend_b = 255;  
+  	
+print(`Config loaded from 'Scripts/rifle.gm'`);     

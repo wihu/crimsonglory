@@ -1,0 +1,22 @@
+// Name: Bathroom listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_BATHROOM
+	environment_size = 1.4
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -1200
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -370
+	reflections_delay = 0.007
+	reverb = 1030
+	reverb_delay = 0.011
+	decay_time = 1.49
+	decayHF_ratio = 0.54
+}
+

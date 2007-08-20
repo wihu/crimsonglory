@@ -1,0 +1,20 @@
+// test GUI
+
+GUIClear();
+
+
+GUIAddWindow(300, 200, 500, 450, 0, 100, 0, "Lula");
+
+//GUIAddTabControl(10, 20, 100, 105, 100, 900, 1, 1);
+
+GUIAddButton(210, 210, 360, 300, 0, 510, "Hello");
+GUIAddStaticText(210, 110, 300, 130, 0, 550, "Labl!!!");
+GUIAddComboBox(10, 30, 140, 40, 100, 600);
+GUIAddCheckBox(110, 110, 180, 130, 100, 650, g_debug, "debug mode");
+//GUIAddMessageBox("Hello", "What's up", 0, 700, 1, 0);
+//GUIAddMessageBox("Hello", "What's up");
+GUIAddEditBox(50, 200, 100, 215, 100, 750, 1, "editer");
+
+GUIAddListBox(40, 300, 100, 400, 0, 800, 0);
+	GUIAddListBoxItem(800, "Mapey");
+	GUIAddListBoxItem(800, "Yara");

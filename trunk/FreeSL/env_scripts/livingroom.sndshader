@@ -1,0 +1,22 @@
+// Name: Livingroom listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_LIVINGROOM
+	environment_size = 2.5
+	environment_diffusion = 1.0
+	room = -1000
+	roomHF = -6000
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -1376
+	reflections_delay = 0.003
+	reverb = -1104
+	reverb_delay = 0.004
+	decay_time = 0.5
+	decayHF_ratio = 0.1
+}
+

@@ -1,0 +1,19 @@
+    global airplane_modelname = "Chars/new.jin"; 
+    
+
+    // wing - tail proportion = 3.2
+    global airplane_wing_forcediv = 5.25;
+    global airplane_tailwing_forcediv = 24.0; 
+    global airplane_wingresistance_forcediv = 8.0;
+    global airplane_tailwingresistance_forcediv = 1.5; 
+    
+    global airplane_wingslift_forcediv = 10.0; 
+    global airplane_wingsresistance_forcediv = 19.0;
+    global airplane_engineresistance_forcediv = 160.0;
+    
+    global airplane_tailsteer_forcediv = 85.0;
+    global airplane_engine_forcediv = 180.0;
+    
+print(`Config loaded from 'Scripts/airplane.gm'`);    
+ 
+  //for( i = 0; i < 3; i=i+1 ) { print("i=",i); sleep(0.3); }

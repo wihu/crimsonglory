@@ -1,0 +1,22 @@
+// Name: Psyhotic listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_PSYCHOYIC
+	environment_size = 1.0
+	environment_diffusion = 0.5
+	room = -1000
+	roomHF = -151
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -626
+	reflections_delay = 0.02
+	reverb = 774
+	reverb_delay = 0.03
+	decay_time = 7.56
+	decayHF_ratio = 0.91
+}
+

@@ -1,0 +1,33 @@
+    global soldier_modelconfig = "Models/dod/dod.cfg";   
+	
+	global soldier_mass = 75.0f; 
+	global soldier_buoyancyfactor = 1.0f;
+	
+	global soldier_scalecollision_x = 0.55f; // z
+	global soldier_scalecollision_y = 0.75f; // x
+	global soldier_scalecollision_z = 3.0f; // y
+	
+	// forces
+	global soldier_runforce = 1900.0f; 
+	global soldier_jumpforce = -4100.0f; 
+	
+	global soldier_maxspeed = 10.5f;
+	
+  	global soldier_lineardamping = 0.6;	
+	
+	// animations
+	global soldier_rotationrate = 15.0f;
+	global soldier_animation_speedfactor = 0.94f;
+	global soldier_animation_bone2mouse = 12;
+	
+	global soldier_anim_idle = 0;
+	global soldier_anim_walk = 1;
+	global soldier_anim_run = 2;
+	global soldier_anim_runback = 3;
+	global soldier_anim_crouch = 4;
+	global soldier_anim_boltpull = 5;	
+	
+	global soldier_weapon_hand = 26;
+	global soldier_item_place = 10;	
+	    
+print(`Config loaded from 'Scripts/soldier_dod.gm'`);     

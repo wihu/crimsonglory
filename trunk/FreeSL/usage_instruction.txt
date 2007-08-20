@@ -1,0 +1,14 @@
+SoundEngine eng;
+eng.loadSoundEngine();
+eng.initializeEAX();
+
+SoundListenerEnvironment sle;
+sle.loadEnvironment("arena.sndshader");
+sle.bindEnvironment();
+
+SoundObject* obj = eng.loadSound("vudu3.ogg");
+obj->play();
+Sleep(obj->getBufferLength()); // wait until the sound has finished playing
+
+eng.killSound(obj);
+eng.unloadSoundEngine();

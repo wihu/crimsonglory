@@ -1,0 +1,43 @@
+// script run when editor event happens
+// app returns:
+// editor_menu_selection - context menu selection
+// editor_mouse_x; editor_mouse_y - mouse world coordinates
+// editor_id_start - first id of the script menu list
+
+
+if (g_debug == 1)
+{
+	print(`editor_menu_selection = `+editor_menu_selection);
+	print(`editor_mouse_x = `+editor_mouse_x);
+	print(`editor_mouse_y = `+editor_mouse_y);
+}
+
+// Select actor config
+if (editor_menu_selection == editor_id_start)
+{
+	GUIFileSelect( 0, 300, 1, "Select config file for actor" );
+}     	
+
+// Delete Actor
+if (editor_menu_selection == editor_id_start + 1)
+{
+//	mapAddRespawn( "hydroplane" , editor_mouse_x, editor_mouse_y, 0.0f, 0 );
+	mapDeleteActor( editor_pickRadius );
+}     	
+
+// Delete Respawn
+if (editor_menu_selection == editor_id_start + 2)
+{
+	mapDeleteRespawn( editor_pickRadius );	
+}     
+
+// Add Sprite
+if (editor_menu_selection == editor_id_start + 4)
+{
+	mapAddSprite( "Textures/light.png", 1,  editor_mouse_x, editor_mouse_y, 0.0f, 
+											0.0f, 0.0f, 0.0f,
+											0.1f, -0.1f, 0.1f,
+											12 );
+}  
+
+print(`Config loaded from editorevent.gm`);

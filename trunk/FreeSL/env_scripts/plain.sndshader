@@ -1,0 +1,22 @@
+// Name: Plain listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_PLAIN
+	environment_size = 42.5
+	environment_diffusion = 0.21
+	room = -1000
+	roomHF = -2000
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -2466
+	reflections_delay = 0.179
+	reverb = -1925
+	reverb_delay = 0.1
+	decay_time = 1.49
+	decayHF_ratio = 0.5
+}
+

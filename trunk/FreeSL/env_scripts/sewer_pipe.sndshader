@@ -1,0 +1,22 @@
+// Name: Sewer pipe listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_SEWERPIPE
+	environment_size = 1.7
+	environment_diffusion = 0.8
+	room = -1000
+	roomHF = -1000
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = 429
+	reflections_delay = 0.014
+	reverb = 1023
+	reverb_delay = 0.021
+	decay_time = 2.81
+	decayHF_ratio = 0.14
+}
+

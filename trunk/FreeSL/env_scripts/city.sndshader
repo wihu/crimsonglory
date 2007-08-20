@@ -1,0 +1,22 @@
+// Name: City listener shader.
+// By: Lukas Heise
+// Date: 12-09-2004
+
+
+listener_environment
+{
+	environment = ENV_CITY
+	environment_size = 7.5
+	environment_diffusion = 0.5
+	room = -1000
+	roomHF = -800
+	room_rolloff_factor = 0.0
+	air_absorptionHF = -5.0
+	reflections = -2273
+	reflections_delay = 0.007
+	reverb = -1691
+	reverb_delay = 0.011
+	decay_time = 1.49
+	decayHF_ratio = 0.67
+}
+

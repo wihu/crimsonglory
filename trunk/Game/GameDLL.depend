@@ -1,0 +1,887 @@
+# depslib dependency file v1.0
+1130619484 c:\hdog\crimson\gamedll\stdafx.cpp
+	"stdafx.h"
+
+1130760286 c:\hdog\crimson\gamedll\stdafx.h
+	"../Game/stdafx.h"
+
+1130760270 c:\hdog\crimson\game\stdafx.h
+	<iostream>
+	<ostream>
+	<istream>
+	<fstream>
+	<list>
+	<string>
+	<map>
+	<deque>
+	<vector>
+	<stack>
+	<algorithm>
+	<functional>
+	<cassert>
+	<sstream>
+	<cmath>
+	<ctime>
+	<wchar.h>
+	<malloc.h>
+	<new>
+	<cassert>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<math.h>
+	"../Irrlicht/irrlicht.h"
+	<windows.h>
+	"unistd.h"
+	<sys/time.h>
+	<signal.h>
+
+1124570808 c:\hdog\crimson\irrlicht\irrlicht.h
+	"IrrCompileConfig.h"
+	"aabbox3d.h"
+	"irrArray.h"
+	"SColor.h"
+	"SLight.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+	"heapsort.h"
+	"IAnimatedMesh.h"
+	"IAnimatedMeshMD2.h"
+	"IAnimatedMeshMS3D.h"
+	"IAnimatedMeshX.h"
+	"IAnimatedMeshSceneNode.h"
+	"ICameraSceneNode.h"
+	"IDummyTransformationSceneNode.h"
+	"IEventReceiver.h"
+	"IFileList.h"
+	"IFileSystem.h"
+	"IGUIButton.h"
+	"IGUICheckBox.h"
+	"IGUIContextMenu.h"
+	"IGUIComboBox.h"
+	"IGUIElement.h"
+	"IGUIEditBox.h"
+	"IGUIEnvironment.h"
+	"IGUIFileOpenDialog.h"
+	"IGUIFont.h"
+	"IGUIImage.h"
+	"IGUIInOutFader.h"
+	"IGUIListBox.h"
+	"IGUIMeshViewer.h"
+	"IGUIScrollBar.h"
+	"IGUISkin.h"
+	"IGUIStaticText.h"
+	"IGUITabControl.h"
+	"IGUIWindow.h"
+	"IGUIToolbar.h"
+	"ILightSceneNode.h"
+	"ILogger.h"
+	"IMesh.h"
+	"IMeshBuffer.h"
+	"IMeshManipulator.h"
+	"IMetaTriangleSelector.h"
+	"IReadFile.h"
+	"IrrlichtDevice.h"
+	"irrMath.h"
+	"irrString.h"
+	"ISceneManager.h"
+	"ISceneNode.h"
+	"IStringParameters.h"
+	"ITriangleSelector.h"
+	"ISceneNodeAnimator.h"
+	"ISceneCollisionManager.h"
+	"IMaterialRenderer.h"
+	"ISceneNodeAnimatorCollisionResponse.h"
+	"IShaderConstantSetCallBack.h"
+	"IParticleSystemSceneNode.h"
+	"ITerrainSceneNode.h"
+	"ITextSceneNode.h"
+	"IParticleEmitter.h"
+	"IParticleAffector.h"
+	"IBillboardSceneNode.h"
+	"ITexture.h"
+	"IUnknown.h"
+	"IVideoDriver.h"
+	"IVideoModeList.h"
+	"IWriteFile.h"
+	"IXMLReader.h"
+	"IXMLWriter.h"
+	"Keycodes.h"
+	"line2d.h"
+	"line3d.h"
+	"irrList.h"
+	"matrix4.h"
+	"plane3d.h"
+	"plane3d.h"
+	"vector2d.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"quaternion.h"
+	"rect.h"
+	"S3DVertex.h"
+	"SAnimatedMesh.h"
+	"SKeyMap.h"
+	"SMaterial.h"
+	"SMesh.h"
+	"SMeshBuffer.h"
+	"SMeshBufferLightMap.h"
+	"SMeshBufferTangents.h"
+	"irrTypes.h"
+	<wchar.h>
+	"SIrrCreationParameters.h"
+
+1124569062 c:\hdog\crimson\irrlicht\irrcompileconfig.h
+
+1124569064 c:\hdog\crimson\irrlicht\aabbox3d.h
+	"irrMath.h"
+	"plane3d.h"
+	"line3d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\irrmath.h
+	"irrTypes.h"
+
+1124897438 c:\hdog\crimson\irrlicht\irrtypes.h
+
+1124569064 c:\hdog\crimson\irrlicht\plane3d.h
+	"irrTypes.h"
+	"irrMath.h"
+	"vector3d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\vector3d.h
+	<math.h>
+	"irrMath.h"
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\line3d.h
+	"irrTypes.h"
+	"vector3d.h"
+
+1124571792 c:\hdog\crimson\irrlicht\irrarray.h
+	"irrTypes.h"
+	"heapsort.h"
+
+1124569064 c:\hdog\crimson\irrlicht\heapsort.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\scolor.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\slight.h
+	"SColor.h"
+
+1124569064 c:\hdog\crimson\irrlicht\dimension2d.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\edrivertypes.h
+
+1124569064 c:\hdog\crimson\irrlicht\ianimatedmesh.h
+	"IUnknown.h"
+	"IMesh.h"
+	"matrix4.h"
+
+1124571792 c:\hdog\crimson\irrlicht\iunknown.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\imesh.h
+	"IUnknown.h"
+	"IMeshBuffer.h"
+
+1124569064 c:\hdog\crimson\irrlicht\imeshbuffer.h
+	"IUnknown.h"
+	"SMaterial.h"
+	"irrArray.h"
+	"aabbox3d.h"
+	"S3DVertex.h"
+
+1124569064 c:\hdog\crimson\irrlicht\smaterial.h
+	"SColor.h"
+	"ITexture.h"
+
+1124569064 c:\hdog\crimson\irrlicht\itexture.h
+	"IUnknown.h"
+	"IImage.h"
+	"dimension2d.h"
+	"EDriverTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\iimage.h
+	"IUnknown.h"
+	"position2d.h"
+	"rect.h"
+	"SColor.h"
+
+1124569064 c:\hdog\crimson\irrlicht\position2d.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\rect.h
+	"irrTypes.h"
+	"dimension2d.h"
+	"position2d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\s3dvertex.h
+	"vector3d.h"
+	"vector2d.h"
+	"SColor.h"
+
+1124569064 c:\hdog\crimson\irrlicht\vector2d.h
+	<math.h>
+	"irrMath.h"
+
+1124569064 c:\hdog\crimson\irrlicht\matrix4.h
+	"irrTypes.h"
+	"vector3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ianimatedmeshmd2.h
+	"IAnimatedMesh.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ianimatedmeshms3d.h
+	"IAnimatedMesh.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ianimatedmeshx.h
+	"IAnimatedMesh.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ianimatedmeshscenenode.h
+	"ISceneNode.h"
+	"IAnimatedMeshMD2.h"
+	"IShadowVolumeSceneNode.h"
+
+1124897216 c:\hdog\crimson\irrlicht\iscenenode.h
+	"IUnknown.h"
+	"ISceneNodeAnimator.h"
+	"ITriangleSelector.h"
+	"SMaterial.h"
+	"irrString.h"
+	"aabbox3d.h"
+	"matrix4.h"
+	"irrList.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iscenenodeanimator.h
+	"IUnknown.h"
+	"vector3d.h"
+
+1124569066 c:\hdog\crimson\irrlicht\itriangleselector.h
+	"IUnknown.h"
+	"triangle3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+
+1124569064 c:\hdog\crimson\irrlicht\triangle3d.h
+	"vector3d.h"
+	"line3d.h"
+	"plane3d.h"
+	"aabbox3d.h"
+
+1124571792 c:\hdog\crimson\irrlicht\irrstring.h
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\irrlist.h
+	"irrTypes.h"
+
+1124569568 c:\hdog\crimson\irrlicht\ishadowvolumescenenode.h
+	"ISceneNode.h"
+	"IMesh.h"
+
+1124569064 c:\hdog\crimson\irrlicht\icamerascenenode.h
+	"SViewFrustrum.h"
+	"ISceneNode.h"
+	"IEventReceiver.h"
+
+1124569066 c:\hdog\crimson\irrlicht\sviewfrustrum.h
+	"plane3d.h"
+	"vector3d.h"
+	"aabbox3d.h"
+	"matrix4.h"
+
+1124569134 c:\hdog\crimson\irrlicht\ieventreceiver.h
+	"ILogger.h"
+	"position2d.h"
+	"Keycodes.h"
+
+1124569062 c:\hdog\crimson\irrlicht\ilogger.h
+	"IUnknown.h"
+
+1124569064 c:\hdog\crimson\irrlicht\keycodes.h
+
+1124569064 c:\hdog\crimson\irrlicht\idummytransformationscenenode.h
+	"ISceneNode.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ifilelist.h
+	"IUnknown.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ifilesystem.h
+	"IUnknown.h"
+	"IXMLReader.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ixmlreader.h
+	"IUnknown.h"
+	"irrXML.h"
+
+1124569064 c:\hdog\crimson\irrlicht\irrxml.h
+	<stdio.h>
+	<irrXML.h>
+	<string>
+	<irrXML.h>
+	<irrXML.h>
+	<irrXML.h>
+
+1124569066 c:\hdog\crimson\irrlicht\iguibutton.h
+	"IGUIElement.h"
+
+1124899444 c:\hdog\crimson\irrlicht\iguielement.h
+	"IUnknown.h"
+	"irrList.h"
+	"rect.h"
+	"irrString.h"
+	"IEventReceiver.h"
+	"EGUIElementTypes.h"
+
+1124569066 c:\hdog\crimson\irrlicht\eguielementtypes.h
+
+1124569066 c:\hdog\crimson\irrlicht\iguicheckbox.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguicontextmenu.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguicombobox.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguieditbox.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguienvironment.h
+	"rect.h"
+	"IUnknown.h"
+	"IEventReceiver.h"
+	"irrTypes.h"
+	"IGUIWindow.h"
+	"IGUISkin.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguiwindow.h
+	"IGUIButton.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguiskin.h
+	"IUnknown.h"
+	"SColor.h"
+	"IGUISkin.h"
+	"rect.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguifileopendialog.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguifont.h
+	"IUnknown.h"
+	"rect.h"
+	"irrTypes.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguiimage.h
+	"IGUIElement.h"
+	"ITexture.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguiinoutfader.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguilistbox.h
+	"IGUIElement.h"
+	"irrTypes.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguimeshviewer.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguiscrollbar.h
+	"IGUIElement.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguistatictext.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguitabcontrol.h
+	"IGUIElement.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iguitoolbar.h
+	"IGUIElement.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ilightscenenode.h
+	"ISceneNode.h"
+	"SLight.h"
+
+1124569064 c:\hdog\crimson\irrlicht\imeshmanipulator.h
+	"IUnknown.h"
+	"vector3d.h"
+	"IMeshBuffer.h"
+	"aabbox3d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\imetatriangleselector.h
+	"ITriangleSelector.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ireadfile.h
+	"IUnknown.h"
+
+1124569064 c:\hdog\crimson\irrlicht\irrlichtdevice.h
+	"irrTypes.h"
+	"IUnknown.h"
+	"dimension2d.h"
+	"IFileSystem.h"
+	"IVideoDriver.h"
+	"EDriverTypes.h"
+	"IGUIEnvironment.h"
+	"IEventReceiver.h"
+	"ISceneManager.h"
+	"ICursorControl.h"
+	"IVideoModeList.h"
+	"ITimer.h"
+	"ILogger.h"
+	"IOSOperator.h"
+
+1124570628 c:\hdog\crimson\irrlicht\ivideodriver.h
+	"rect.h"
+	"SColor.h"
+	"ITexture.h"
+	"matrix4.h"
+	"dimension2d.h"
+	"position2d.h"
+	"IReadFile.h"
+	"SMaterial.h"
+	"SLight.h"
+	"IImageLoader.h"
+	"triangle3d.h"
+	"SExposedVideoData.h"
+	"IMaterialRenderer.h"
+	"EDriverTypes.h"
+	"IGPUProgrammingServices.h"
+
+1124569064 c:\hdog\crimson\irrlicht\iimageloader.h
+	"IUnknown.h"
+	"IReadFile.h"
+	"IImage.h"
+
+1124569064 c:\hdog\crimson\irrlicht\sexposedvideodata.h
+
+1124569064 c:\hdog\crimson\irrlicht\imaterialrenderer.h
+	"IUnknown.h"
+	"SMaterial.h"
+	"S3DVertex.h"
+
+1124571504 c:\hdog\crimson\irrlicht\igpuprogrammingservices.h
+	"IUnknown.h"
+	"SMaterial.h"
+
+1124815918 c:\hdog\crimson\irrlicht\iscenemanager.h
+	"irrArray.h"
+	"IUnknown.h"
+	"vector3d.h"
+	"dimension2d.h"
+	"SColor.h"
+	"SMaterial.h"
+	"IEventReceiver.h"
+	"ITerrainSceneNode.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iterrainscenenode.h
+	"ISceneNode.h"
+	"SMeshBufferLightMap.h"
+	"IMesh.h"
+	"irrArray.h"
+
+1124569066 c:\hdog\crimson\irrlicht\smeshbufferlightmap.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1124569066 c:\hdog\crimson\irrlicht\icursorcontrol.h
+	"position2d.h"
+	"IUnknown.h"
+	"irrTypes.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ivideomodelist.h
+	"IUnknown.h"
+	"dimension2d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\itimer.h
+	"IUnknown.h"
+
+1124569062 c:\hdog\crimson\irrlicht\iosoperator.h
+	"IUnknown.h"
+
+1124569064 c:\hdog\crimson\irrlicht\istringparameters.h
+	"IUnknown.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iscenecollisionmanager.h
+	"IUnknown.h"
+	"vector3d.h"
+	"triangle3d.h"
+	"position2d.h"
+	"line3d.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iscenenodeanimatorcollisionresponse.h
+	"ISceneNode.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ishaderconstantsetcallback.h
+	"IUnknown.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iparticlesystemscenenode.h
+	"ISceneNode.h"
+	"IParticleEmitter.h"
+	"IParticleAffector.h"
+	"dimension2d.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iparticleemitter.h
+	"IUnknown.h"
+	"SParticle.h"
+
+1124569066 c:\hdog\crimson\irrlicht\sparticle.h
+	"vector3d.h"
+	"SColor.h"
+
+1124569066 c:\hdog\crimson\irrlicht\iparticleaffector.h
+	"IUnknown.h"
+	"SParticle.h"
+
+1124569066 c:\hdog\crimson\irrlicht\itextscenenode.h
+	"ISceneNode.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ibillboardscenenode.h
+	"ISceneNode.h"
+
+1124569064 c:\hdog\crimson\irrlicht\iwritefile.h
+	"IUnknown.h"
+
+1124569064 c:\hdog\crimson\irrlicht\ixmlwriter.h
+	"IUnknown.h"
+
+1124570508 c:\hdog\crimson\irrlicht\line2d.h
+	"irrTypes.h"
+	"vector2d.h"
+
+1124569064 c:\hdog\crimson\irrlicht\quaternion.h
+	"irrTypes.h"
+	"matrix4.h"
+
+1124569066 c:\hdog\crimson\irrlicht\sanimatedmesh.h
+	"IAnimatedMesh.h"
+
+1124569064 c:\hdog\crimson\irrlicht\skeymap.h
+	"Keycodes.h"
+
+1124569066 c:\hdog\crimson\irrlicht\smesh.h
+	"IMeshBuffer.h"
+	"IMesh.h"
+
+1124569066 c:\hdog\crimson\irrlicht\smeshbuffer.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1124569600 c:\hdog\crimson\irrlicht\smeshbuffertangents.h
+	"irrArray.h"
+	"IMeshBuffer.h"
+
+1124569064 c:\hdog\crimson\irrlicht\sirrcreationparameters.h
+
+1131053208 c:\hdog\crimson\gamedll\gamedll.cpp
+	"stdafx.h"
+	"GameDLL.h"
+
+1130760152 c:\hdog\crimson\gamedll\gamedll.h
+	"../Engine/engine.h"
+	"../Game/game.h"
+	"../Game/SingletonIncludes.h"
+
+1131227962 c:\hdog\crimson\engine\engine.h
+	"../Game/stdafx.h"
+	"resource.h"
+	"singleton.h"
+	"functor.h"
+	"ringbuf.h"
+	"serialize.h"
+	"kernel.h"
+	"interpolators.h"
+	"triggers.h"
+	"timers.h"
+	"log.h"
+	"mmanager.h"
+	"profiler.h"
+	"profileloghandler.h"
+	"render.h"
+
+1130594194 c:\hdog\crimson\engine\resource.h
+
+1131294960 c:\hdog\crimson\engine\singleton.h
+
+1130594194 c:\hdog\crimson\engine\functor.h
+	"mmanager.h"
+
+1130594194 c:\hdog\crimson\engine\mmanager.h
+	"engine.h"
+
+1066995194 c:\hdog\crimson\engine\ringbuf.h
+
+1130594194 c:\hdog\crimson\engine\serialize.h
+
+1130588834 c:\hdog\crimson\engine\kernel.h
+	"singleton.h"
+
+1130613354 c:\hdog\crimson\engine\interpolators.h
+
+1130613140 c:\hdog\crimson\engine\triggers.h
+	"engine.h"
+
+1130613510 c:\hdog\crimson\engine\timers.h
+
+1130589020 c:\hdog\crimson\engine\log.h
+	"engine.h"
+
+1130613342 c:\hdog\crimson\engine\profiler.h
+	"misc.h"
+
+1131217688 c:\hdog\crimson\engine\misc.h
+
+1130588794 c:\hdog\crimson\engine\profileloghandler.h
+	"profiler.h"
+
+1131303064 c:\hdog\crimson\engine\render.h
+
+1131293464 c:\hdog\crimson\game\game.h
+	"stdafx.h"
+	"../Engine/engine.h"
+
+1131228530 c:\hdog\crimson\game\singletonincludes.h
+	"../IrrConsole/console.h"
+	"../GameMonkey/script.h"
+	"../Irrlicht/IrrlichtTask.h"
+	"../FreeSL/SoundTask.h"
+	"../RakNet/NetworkTask.h"
+
+1130761030 c:\hdog\crimson\irrconsole\console.h
+	"../Game/stdafx.h"
+	"../Engine/engine.h"
+	"console_utils.h"
+
+1130684694 c:\hdog\crimson\irrconsole\console_utils.h
+	"includes.h"
+
+1130084302 c:\hdog\crimson\irrconsole\includes.h
+	"../Engine/engine.h"
+
+1131226890 c:\hdog\crimson\gamemonkey\script.h
+	"gmThread.h"
+	"gmDebugger.h"
+	"gmCallScript.h"
+	"../Engine/engine.h"
+
+1115659334 c:\hdog\crimson\gamemonkey\gmthread.h
+	"gmConfig.h"
+	"gmListDouble.h"
+	"gmHash.h"
+	"gmVariable.h"
+	"gmMachine.h"
+	"gmStringObject.h"
+	"gmUserObject.h"
+
+1130597820 c:\hdog\crimson\gamemonkey\gmconfig.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<stdarg.h>
+	<ctype.h>
+	<math.h>
+	"gmConfig_p.h"
+
+1130597378 c:\hdog\crimson\gamemonkey\gmconfig_p.h
+	<malloc.h>
+	<new>
+	<cassert>
+	<iostream>
+	<ostream>
+	<istream>
+	<fstream>
+	<list>
+	<string>
+	<map>
+	<stdlib.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<math.h>
+	<crtdbg.h>
+
+1130070164 c:\hdog\crimson\gamemonkey\gmlistdouble.h
+	"gmConfig.h"
+	"gmIterator.h"
+
+1099419106 c:\hdog\crimson\gamemonkey\gmiterator.h
+
+1099419114 c:\hdog\crimson\gamemonkey\gmhash.h
+	"gmConfig.h"
+	"gmIterator.h"
+
+1113659798 c:\hdog\crimson\gamemonkey\gmvariable.h
+	"gmConfig.h"
+	"gmIncGC.h"
+
+1115659560 c:\hdog\crimson\gamemonkey\gmincgc.h
+	"gmConfig.h"
+
+1115730002 c:\hdog\crimson\gamemonkey\gmmachine.h
+	"gmConfig.h"
+	"gmMemFixed.h"
+	"gmMemFixedSet.h"
+	"gmLog.h"
+	"gmVariable.h"
+	"gmTableObject.h"
+	"gmOperators.h"
+	"gmFunctionObject.h"
+	"gmHash.h"
+	"gmArraySimple.h"
+	"gmIncGC.h"
+
+1099419068 c:\hdog\crimson\gamemonkey\gmmemfixed.h
+	"gmMemChain.h"
+
+1099419074 c:\hdog\crimson\gamemonkey\gmmemchain.h
+	"gmConfig.h"
+
+1111407824 c:\hdog\crimson\gamemonkey\gmmemfixedset.h
+	"gmMemFixed.h"
+	"gmListDouble.h"
+
+1099419092 c:\hdog\crimson\gamemonkey\gmlog.h
+	"gmConfig.h"
+	"gmMemChain.h"
+
+1115744888 c:\hdog\crimson\gamemonkey\gmtableobject.h
+	"gmConfig.h"
+	"gmVariable.h"
+
+1099419214 c:\hdog\crimson\gamemonkey\gmoperators.h
+	"gmConfig.h"
+	"gmVariable.h"
+	"gmByteCode.h"
+
+1099419032 c:\hdog\crimson\gamemonkey\gmbytecode.h
+	"gmConfig.h"
+
+1115744876 c:\hdog\crimson\gamemonkey\gmfunctionobject.h
+	"gmConfig.h"
+	"gmVariable.h"
+	"gmCodeGenHooks.h"
+	"gmMem.h"
+
+1099419016 c:\hdog\crimson\gamemonkey\gmcodegenhooks.h
+	"gmConfig.h"
+
+1099419076 c:\hdog\crimson\gamemonkey\gmmem.h
+	"gmConfig.h"
+
+1099419038 c:\hdog\crimson\gamemonkey\gmarraysimple.h
+	"gmConfig.h"
+	"gmUtil.h"
+
+1099419168 c:\hdog\crimson\gamemonkey\gmutil.h
+	"gmConfig.h"
+
+1113659396 c:\hdog\crimson\gamemonkey\gmstringobject.h
+	"gmConfig.h"
+	"gmVariable.h"
+	"gmHash.h"
+
+1104161774 c:\hdog\crimson\gamemonkey\gmuserobject.h
+	"gmConfig.h"
+	"gmVariable.h"
+
+1073592144 c:\hdog\crimson\gamemonkey\gmdebugger.h
+
+1114114928 c:\hdog\crimson\gamemonkey\gmcallscript.h
+	"gmConfig.h"
+	"gmThread.h"
+	"gmMachine.h"
+
+1131294302 c:\hdog\crimson\irrlicht\irrlichttask.h
+	"../Engine/engine.h"
+
+1131053298 c:\hdog\crimson\freesl\soundtask.h
+	"../Engine/engine.h"
+	"freesl.h"
+
+1131050498 c:\hdog\crimson\freesl\freesl.h
+
+1131290364 c:\hdog\crimson\raknet\networktask.h
+	"../Engine/engine.h"
+	"Server.h"
+	"RakServerInterface.h"
+	"Client.h"
+	"RakClientInterface.h"
+	"PacketEnumerations.h"
+	"RakNetworkFactory.h"
+	"Multiplayer.h"
+
+1131290596 c:\hdog\crimson\raknet\server.h
+	"PacketEnumerations.h"
+	"RakNetworkFactory.h"
+	"RakServerInterface.h"
+	"RakClientInterface.h"
+	"Multiplayer.h"
+
+1127759856 c:\hdog\crimson\raknet\packetenumerations.h
+
+1127759856 c:\hdog\crimson\raknet\raknetworkfactory.h
+
+1127759856 c:\hdog\crimson\raknet\rakserverinterface.h
+	"NetworkTypes.h"
+	"PacketPriority.h"
+	"RakPeerInterface.h"
+	"BitStream.h"
+	"RakNetStatistics.h"
+
+1127759856 c:\hdog\crimson\raknet\networktypes.h
+	"BitStream.h"
+
+1127759856 c:\hdog\crimson\raknet\bitstream.h
+	<stdint.h>
+
+1127759856 c:\hdog\crimson\raknet\packetpriority.h
+
+1127759856 c:\hdog\crimson\raknet\rakpeerinterface.h
+	"PacketPriority.h"
+	"NetworkTypes.h"
+	"BitStream.h"
+	"RakNetStatistics.h"
+
+1127759856 c:\hdog\crimson\raknet\raknetstatistics.h
+	"PacketPriority.h"
+
+1127759856 c:\hdog\crimson\raknet\rakclientinterface.h
+	"NetworkTypes.h"
+	"PacketPriority.h"
+	"RakPeerInterface.h"
+	"BitStream.h"
+	"RakNetStatistics.h"
+
+1127759856 c:\hdog\crimson\raknet\multiplayer.h
+	"DistributedNetworkObjectManager.h"
+	"PacketEnumerations.h"
+	"NetworkTypes.h"
+	<assert.h>
+	<stdio.h>
+	"GetTime.h"
+	<memory.h>
+
+1127759856 c:\hdog\crimson\raknet\distributednetworkobjectmanager.h
+	"ArrayList.h"
+	"NetworkTypes.h"
+	"EncodeClassName.h"
+
+1127759856 c:\hdog\crimson\raknet\arraylist.h
+	<assert.h>
+
+1127759856 c:\hdog\crimson\raknet\encodeclassname.h
+
+1127759856 c:\hdog\crimson\raknet\gettime.h
+
+1131290616 c:\hdog\crimson\raknet\client.h
+	"Multiplayer.h"
+

@@ -1,0 +1,25 @@
+    global soldier_modelconfig = "Models/michigan/michigan.cfg";   
+	
+	global soldier_mass = 75.0f; 
+	global soldier_buoyancyfactor = 1.0f;
+	
+	global soldier_scalecollision_x = 0.5f; 
+	global soldier_scalecollision_y = 1.0f; 
+	global soldier_scalecollision_z = 2.0f; 
+	
+	// forces
+	global soldier_runforce = 600.0f; 
+	global soldier_jumpforce = -4100.0f; 
+	
+	// animations
+	global soldier_rotationrate = 15.0f;
+	global soldier_animation_speedfactor = 1.06f;
+	global soldier_animation_bone2mouse = 12;
+	
+	global soldier_anim_idle = 0;
+	global soldier_anim_walk = 1;
+	global soldier_anim_run = 2;
+	global soldier_anim_runback = 3;
+	global soldier_anim_crouch = 4;
+	    
+print(`Config loaded from 'Scripts/soldier.gm'`);     

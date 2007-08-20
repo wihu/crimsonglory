@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="GameDLL.cpp" open="0" top="0">
+		<Cursor position="118" topLine="0"/>
+	</File>
+	<File name="GameDLL.h" open="0" top="0">
+		<Cursor position="268" topLine="0"/>
+	</File>
+	<File name="..\IrrConsole\console.h" open="0" top="0">
+		<Cursor position="8996" topLine="263"/>
+	</File>
+</CodeBlocks_layout_file>

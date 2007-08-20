@@ -1,0 +1,13 @@
+print("--- Executing unzoom.gm ---");
+
+local w = w_camera_distance;
+local str = "";
+
+for( i = 0; i < 400; i=i+1 ) 
+{ 
+	w = w + 0.5;
+	str = "w_camera_distance " + w.String();
+	//print(str);
+	//console(str);
+	sleep(0.02);
+}
